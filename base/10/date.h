@@ -3,7 +3,8 @@ namespace Seraphim
     enum month
     {
       January = 1,
-      February, March, April, May, June, July, August, September, october, November,December
+      February, March, April, May, June, July, August, September, October, November,December
+
     };
   class Date
   {
@@ -11,13 +12,13 @@ namespace Seraphim
    int y;
    month m;
    int d;
-   bool isIntercalary();
+   bool isIntercalary(int yy);
    public:
-    Date(int yy,month mm,int dd);
+    Date(int yy=0,month mm=month(0),int dd=0);
     int getDay(){return d;};
     int getYer(){return y;};
     month getMonth(){return m;};
   };
-
+  class BadDate{};
 
 };
