@@ -1,0 +1,14 @@
+﻿Build started 2013/3/11 21:13:51.
+     1>Project "D:\sources\SeraphimCPP\TestDll2\TestDll2.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Release\TestDll2.unsuccessfulbuild".
+       ClCompile:
+         All outputs are up-to-date.
+       Link:
+         d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\sources\SeraphimCPP\Release\TestDll2.exe" /NOLOGO /LIBPATH:D:\ TestDll.dll kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\TestDll2.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\sources\SeraphimCPP\Release\TestDll2.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\sources\SeraphimCPP\Release\TestDll2.lib" /MACHINE:X86 Release\main.obj
+     1>D:\TestDll.dll : fatal error LNK1107: invalid or corrupt file: cannot read at 0x2B0
+     1>Done Building Project "D:\sources\SeraphimCPP\TestDll2\TestDll2.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.06

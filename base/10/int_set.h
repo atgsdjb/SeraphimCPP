@@ -1,3 +1,6 @@
+/************************************************************************/
+/*                                                                      */
+/************************************************************************/
 #ifndef  _SERAPHIM_INT_SET
 #define  _SERAPHIM_INT_SET
 #include"int_node.h"
@@ -14,10 +17,8 @@ namespace Seraphim{
 		~IntSet();
 		int getSize(){return size;}
 		bool contain(int v);
-		//void operator||(IntSet& set);
 		IntSet* f_and(IntSet  *set);
 		IntSet* f_or(IntSet *set);
-		//void operator&&(IntSet& set);
 		 void insert(int v);
 		 vector<int>* getAll();
 		 

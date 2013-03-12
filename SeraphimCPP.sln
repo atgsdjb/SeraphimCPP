@@ -1,7 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SeraphimCPP", "SeraphimCPP\SeraphimCPP.vcxproj", "{E331672B-0ADA-4054-9EB5-BBD8E458EDCC}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "X264", "X264\X264.vcxproj", "{01DDEF4F-13F0-4705-A4C4-A002556A9884}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SampleX264", "SampleX264\SampleX264.vcxproj", "{34972AF8-9AED-4240-AA32-BF1DDA82FEF6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestDll", "TestDll\TestDll.vcxproj", "{2DCD1845-E2F2-45BC-8D51-4F6B080DFDEC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestDll2", "TestDll2\TestDll2.vcxproj", "{ACD3D94A-6FF2-4AE7-B350-0D66EC3CE986}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,10 +15,22 @@ Global
 		Release|Win32 = Release|Win32
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E331672B-0ADA-4054-9EB5-BBD8E458EDCC}.Debug|Win32.ActiveCfg = Debug|Win32
-		{E331672B-0ADA-4054-9EB5-BBD8E458EDCC}.Debug|Win32.Build.0 = Debug|Win32
-		{E331672B-0ADA-4054-9EB5-BBD8E458EDCC}.Release|Win32.ActiveCfg = Release|Win32
-		{E331672B-0ADA-4054-9EB5-BBD8E458EDCC}.Release|Win32.Build.0 = Release|Win32
+		{01DDEF4F-13F0-4705-A4C4-A002556A9884}.Debug|Win32.ActiveCfg = Debug|Win32
+		{01DDEF4F-13F0-4705-A4C4-A002556A9884}.Debug|Win32.Build.0 = Debug|Win32
+		{01DDEF4F-13F0-4705-A4C4-A002556A9884}.Release|Win32.ActiveCfg = Release|Win32
+		{01DDEF4F-13F0-4705-A4C4-A002556A9884}.Release|Win32.Build.0 = Release|Win32
+		{34972AF8-9AED-4240-AA32-BF1DDA82FEF6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{34972AF8-9AED-4240-AA32-BF1DDA82FEF6}.Debug|Win32.Build.0 = Debug|Win32
+		{34972AF8-9AED-4240-AA32-BF1DDA82FEF6}.Release|Win32.ActiveCfg = Release|Win32
+		{34972AF8-9AED-4240-AA32-BF1DDA82FEF6}.Release|Win32.Build.0 = Release|Win32
+		{2DCD1845-E2F2-45BC-8D51-4F6B080DFDEC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2DCD1845-E2F2-45BC-8D51-4F6B080DFDEC}.Debug|Win32.Build.0 = Debug|Win32
+		{2DCD1845-E2F2-45BC-8D51-4F6B080DFDEC}.Release|Win32.ActiveCfg = Release|Win32
+		{2DCD1845-E2F2-45BC-8D51-4F6B080DFDEC}.Release|Win32.Build.0 = Release|Win32
+		{ACD3D94A-6FF2-4AE7-B350-0D66EC3CE986}.Debug|Win32.ActiveCfg = Debug|Win32
+		{ACD3D94A-6FF2-4AE7-B350-0D66EC3CE986}.Debug|Win32.Build.0 = Debug|Win32
+		{ACD3D94A-6FF2-4AE7-B350-0D66EC3CE986}.Release|Win32.ActiveCfg = Release|Win32
+		{ACD3D94A-6FF2-4AE7-B350-0D66EC3CE986}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
