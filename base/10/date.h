@@ -1,3 +1,5 @@
+#ifndef _SERAPHIM_DATE
+#define _SERAPHIN_DATE
 namespace Seraphim
 {
     enum month
@@ -22,3 +24,4 @@ namespace Seraphim
   class BadDate{};
 
 };
+#endif

@@ -1,6 +1,10 @@
+#ifndef   _SERAPHIM_EXCEPTION
+#define   _SERAPHIM_EXCEPTION
 namespace Seraphim{
-	class Exception{
+	class TDException{
 	};
-	class InvalidArgumentException : public Exception{
+	class TDInvalidArgumentException : public TDException{
 	};
 };
+#endif
+
