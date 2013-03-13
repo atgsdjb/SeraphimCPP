@@ -1,26 +1,5 @@
-﻿生成启动时间为 3/13/2013 3:24:27 PM。
-     1>项目“D:\Sources\SeraphimCPP\x264\x264.vcxproj”在节点 2 上(build 个目标)。
-     1>InitializeBuildStatus:
-         正在创建“Debug\x264.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
-       ClCompile:
-         d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
-         main.cpp
-         You must include stdint.h or inttypes.h before x264.h
-     1>d:\sources\seraphimcpp\x264\main.cpp(77): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
-       Link:
-         d:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Sources\SeraphimCPP\SeraphimX264\Debug\x264.exe" /NOLOGO /LIBPATH:D:\Sources\SeraphimCPP\x264 kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\x264.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Sources\SeraphimCPP\SeraphimX264\Debug\x264.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Sources\SeraphimCPP\SeraphimX264\Debug\x264.lib" /MACHINE:X86 Debug\import.obj
-         Debug\main.obj
-         Debug\yuv420.obj
-         LINK : 没有找到 D:\Sources\SeraphimCPP\SeraphimX264\Debug\x264.exe 或上一个增量链接没有生成它；正在执行完全链接
-         x264.vcxproj -> D:\Sources\SeraphimCPP\SeraphimX264\Debug\x264.exe
-       Manifest:
-         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\Sources\SeraphimCPP\SeraphimX264\Debug\x264.exe;#1" /manifest Debug\x264.exe.intermediate.manifest
-       FinalizeBuildStatus:
-         正在删除文件“Debug\x264.unsuccessfulbuild”。
-         正在对“Debug\x264.lastbuildstate”执行 Touch 任务。
-     1>已完成生成项目“D:\Sources\SeraphimCPP\x264\x264.vcxproj”(build 个目标)的操作。
+﻿Build started 2013/3/11 20:37:25.
 
-生成成功。
+Build succeeded.
 
-已用时间 00:00:01.09
+Time Elapsed 00:00:00.00
