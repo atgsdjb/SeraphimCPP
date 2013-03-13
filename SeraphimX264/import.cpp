@@ -7,7 +7,7 @@
 //#pragma comment( lib, "Quartz.lib" )
 //#pragma comment( lib, "winmm.lib" )
 //
-#pragma comment( lib, "libx264-125.lib" )
+//#pragma comment( lib, "libx264-125.lib" )
 //#pragma comment( lib, "libfaac.lib" )
 //#pragma comment( lib, "cscc.lib" )
 //
