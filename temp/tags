@@ -1,0 +1,22 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.6	//
+Seraphim	Seraphim.h	/^	Seraphim(string _name,int _old):name(_name),old(_old){};$/;"	f	class:Seraphim	access:public	signature:(string _name,int _old)
+Seraphim	Seraphim.h	/^class Seraphim{$/;"	c
+Seraphim::Seraphim	Seraphim.h	/^	Seraphim(string _name,int _old):name(_name),old(_old){};$/;"	f	class:Seraphim	access:public	signature:(string _name,int _old)
+Seraphim::getName	Seraphim.cpp	/^string Seraphim::getName(){$/;"	f	class:Seraphim	signature:()
+Seraphim::getName	Seraphim.h	/^	string getName();$/;"	p	class:Seraphim	access:public	signature:()
+Seraphim::getOld	Seraphim.cpp	/^int Seraphim::getOld(){$/;"	f	class:Seraphim	signature:()
+Seraphim::getOld	Seraphim.h	/^	int getOld();$/;"	p	class:Seraphim	access:public	signature:()
+Seraphim::name	Seraphim.h	/^	string name;$/;"	m	class:Seraphim	access:private
+Seraphim::old	Seraphim.h	/^	int old;$/;"	m	class:Seraphim	access:private
+getName	Seraphim.cpp	/^string Seraphim::getName(){$/;"	f	class:Seraphim	signature:()
+getName	Seraphim.h	/^	string getName();$/;"	p	class:Seraphim	access:public	signature:()
+getOld	Seraphim.cpp	/^int Seraphim::getOld(){$/;"	f	class:Seraphim	signature:()
+getOld	Seraphim.h	/^	int getOld();$/;"	p	class:Seraphim	access:public	signature:()
+main	test.cpp	/^int main(int argc ,char** argv){$/;"	f	signature:(int argc ,char** argv)
+name	Seraphim.h	/^	string name;$/;"	m	class:Seraphim	access:private
+old	Seraphim.h	/^	int old;$/;"	m	class:Seraphim	access:private
