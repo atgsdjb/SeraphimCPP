@@ -1,6 +1,10 @@
 #include<iostream>
-using namespace std;
+#include"fs.h"
+void t(){
+  F* s=new S();
+  delete s;
+}
 int main(int argc,char** argv){
-	cout<<"seraphim"<<endl;
+	t();
 	return 0;
 }
